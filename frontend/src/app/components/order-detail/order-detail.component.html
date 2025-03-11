@@ -1,0 +1,8 @@
+<div class="flex justify-between items-center">
+  <div>
+    <p class="text-lg font-semibold">{{ productName }}</p>
+    <p class="text-sm text-gray-500">Quantity: {{ item.quantity }}</p>
+    <p class="text-sm text-gray-500">Price: ₹{{ item.price }}</p>
+  </div>
+  <p class="text-lg font-bold">₹{{ item.quantity * item.price }}</p>
+</div>

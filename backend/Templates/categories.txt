@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Men's Fashion",
+    "description": "Stylish and trendy outfits for men."
+  },
+  {
+    "name": "Women's Fashion",
+    "description": "Elegant and fashionable clothing for women."
+  },
+  {
+    "name": "Groceries",
+    "description": "Everyday essentials and food items."
+  },
+  {
+    "name": "Packed Food",
+    "description": "Ready-to-eat and packaged food items."
+  },
+  {
+    "name": "Beverages",
+    "description": "Refreshing drinks and beverages for all occasions."
+  },
+  {
+    "name": "Electronics",
+    "description": "Latest gadgets and electronic appliances."
+  },
+  {
+    "name": "Motors",
+    "description": "Motor accessories and related products."
+  },
+  {
+    "name": "Toys",
+    "description": "Fun and educational toys for kids of all ages."
+  }
+]
+

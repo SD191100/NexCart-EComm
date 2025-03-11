@@ -1,0 +1,64 @@
+
+
+<div class="flex flex-col w-64 bg-white shadow-lg h-screen fixed">
+  <div class="p-6 text-lg font-semibold border-b">
+    <a
+      routerLink="/dashboard"
+      routerLinkActive="bg-gray-200"
+      class="flex items-center p-3 rounded-lg hover:bg-gray-200"
+    >
+      Seller Dashboard
+    </a>
+  </div>
+  <nav class="flex-grow">
+    <ul class="space-y-2 p-4">
+      <li>
+        <a
+          routerLink="/dashboard"
+          routerLinkActive="bg-gray-200"
+          class="flex items-center p-3 rounded-lg hover:bg-gray-200"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M8 12H4V16H8V12ZM16 8H12V16H16V8ZM8 4H4V8H8V4ZM12 4V8H16V4H12ZM4 2C2.89543 2 2 2.89543 2 4V8C2 9.10457 2.89543 10 4 10H8C9.10457 10 10 9.10457 10 8V4C10 2.89543 9.10457 2 8 2H4ZM12 2C10.8954 2 10 2.89543 10 4V8C10 9.10457 10.8954 10 12 10H16C17.1046 10 18 9.1046 18 8V4C18 2.89543 17.1046 2 16 2H12ZM4 12C2.89543 12 2 12.8954 2 14V18C2 19.1046 2.89543 20 4 20H8C9.1046 20 10 19.1046 10 18V14C10 12.8954 9.1046 12 8 12H4ZM12 12C10.8954 12 10 12.8954 10 14V18C10 19.1046 10.8954 20 12 20H16C17.1046 20 18 19.1046 18 18V14C18 12.8954 17.1046 12 16 12H12Z" />
+          </svg>
+          Dashboard
+        </a>
+      </li>
+      <li>
+        <a
+          routerLink="/product-management"
+          routerLinkActive="bg-gray-200"
+          class="flex items-center p-3 rounded-lg hover:bg-gray-200"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M17 9.58333V14.0833C17 14.922 16.2887 15.5833 15.4167 15.5833H4.58333C3.71129 15.5833 3 14.922 3 14.0833V9.58333L10 13.4167L17 9.58333ZM4.58333 4.41667H15.4167C16.2887 4.41667 17 5.07799 17 5.91667V8.25L10 12.0833L3 8.25V5.91667C3 5.07799 3.71129 4.41667 4.58333 4.41667Z" />
+          </svg>
+          Product Management
+        </a>
+      </li>
+      <li>
+        <a
+          routerLink="/order-management"
+          routerLinkActive="bg-gray-200"
+          class="flex items-center p-3 rounded-lg hover:bg-gray-200"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M17 9.58333V14.0833C17 14.922 16.2887 15.5833 15.4167 15.5833H4.58333C3.71129 15.5833 3 14.922 3 14.0833V9.58333L10 13.4167L17 9.58333ZM4.58333 4.41667H15.4167C16.2887 4.41667 17 5.07799 17 5.91667V8.25L10 12.0833L3 8.25V5.91667C3 5.07799 3.71129 4.41667 4.58333 4.41667Z" />
+          </svg>
+          Order Management
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Logout Button -->
+  <div class="p-4">
+    <button
+      (click)="logout()"
+      class="w-full px-4 py-2 bg-red-200 text-white rounded-lg hover:bg-red-300 transition duration-200"
+    >
+      Logout
+    </button>
+  </div>
+</div>
+

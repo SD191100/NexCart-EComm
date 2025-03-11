@@ -1,0 +1,11 @@
+/* admin-profile.component.css */
+/* Add any custom styles here */
+.ng-invalid.ng-touched {
+    border-color: #f87171; /* Tailwind's red-400 */
+  }
+  
+  .error-message {
+    @apply text-red-500 text-sm mt-1;
+  }
+  
+  /* You can add more custom styles as needed */

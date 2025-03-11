@@ -1,0 +1,32 @@
+<div class="container mx-auto px-4 min-h-[80vh]">
+  <h1 class="text-2xl font-bold mb-6">Payment</h1>
+
+  <div class="bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-xl font-semibold mb-4">Order Details</h2>
+    <p><strong>Amount to Pay:</strong> ₹{{ amount }}</p>
+    <p><strong>UPI ID:</strong> <span class="text-blue-600">example &#64;upi</span></p>
+
+    <form [formGroup]="paymentForm" (ngSubmit)="processPayment()">
+      <div class="mt-4">
+        <label for="paymentMethod" class="block font-medium mb-2">Enter UPI Id</label>
+        <!--<select-->
+        <!--  id="paymentMethod"-->
+        <!--  formControlName="paymentMethod"-->
+        <!--  class="w-full border border-gray-300 p-2 rounded"-->
+        <!--  <option value="Credit Card">Credit Card</option>-->
+        <!--  <option value="Debit Card">Debit Card</option>-->
+        <!--  <option value="UPI">UPI</option>-->
+        <!--  <option value="Cash on Delivery">Cash on Delivery</option>-->
+        <!--</select>-->
+        <input formControlName="upi" type="text" class="border border-gray-300 rounded-lg px-4 py-2 w-96">
+      </div>
+
+      <button
+        type="submit"
+        class="w-full bg-blue-600 text-white py-2 mt-6 rounded-lg hover:bg-blue-700 transition"
+      >
+        Pay Now
+      </button>
+    </form>
+  </div>
+</div>

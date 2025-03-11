@@ -1,0 +1,62 @@
+/* Base button styles */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.2rem; /* Adjusted padding to match the provided button */
+    font-size: 14px; /* Reduced font size for consistency */
+    font-weight: 600;
+    color: #2D3748; /* Darker gray text color for better contrast with white background */
+    border: 2px solid #CBD5E0; /* Light gray border for minimalism */
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+    border-radius: 0.375rem; /* Same rounded corners as the original button */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Button before pseudo-element (for background animation) */
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; /* Transparent background for default state */
+    transform: translateX(-100%);
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+/* Button hover state */
+.btn:hover::before {
+    transform: translateX(0); /* Smoothly fill the button's background */
+}
+
+/* Hover effect */
+.btn:hover {
+    color: #fff; /* White text color when hovered */
+}
+
+/* Edit Button (Green shade) */
+.btn.edit {
+    border-color: #d0e9d9; /* Soft green border */
+}
+
+.btn.edit:hover {
+    background-color: #68D391; /* Light green background on hover */
+    border-color: #48BB78; /* Darker green border on hover */
+}
+
+/* Delete Button (Red shade) */
+.btn.delete {
+    border-color: #fdc4c4; /* Soft red border */
+}
+
+.btn.delete:hover {
+    background-color: #FC8181; /* Light red background on hover */
+    border-color: #F56565; /* Darker red border on hover */
+}

@@ -1,0 +1,172 @@
+<!-- <div class="max-w-6xl mx-auto mt-10">
+ 
+  <div class="text-center mb-6">
+    <h1 class="text-3xl font-bold text-gray-700">Category Management</h1>
+    <p class="text-gray-500">Add, update, or remove categories with ease.</p>
+  </div>
+
+
+    <div class="mb-4 flex flex-wrap gap-4 ">
+      <input
+        type="text"
+        [(ngModel)]="currentCategory.name"
+        placeholder="Category Name"
+        class="border p-2 rounded mr-2"
+      />
+      <input
+        type="text"
+        [(ngModel)]="currentCategory.description"
+        placeholder="Description"
+        class="border p-2 rounded mr-2"
+      />
+      <button
+        *ngIf="!editMode"
+        (click)="addCategory()"
+        class="bg-blue-500 text-white px-4 py-2 rounded"
+      >
+        Add Category
+      </button>
+      <button
+        *ngIf="editMode"
+        (click)="updateCategory()"
+        class="bg-green-500 text-white px-4 py-2 rounded"
+      >
+        Update Category
+      </button>
+      <button
+        *ngIf="editMode"
+        (click)="resetForm()"
+        class="bg-gray-500 text-white px-4 py-2 rounded ml-2"
+      >
+        Cancel
+      </button>
+    </div>
+
+    <table class="table-auto w-full border">
+      <thead>
+        <tr>
+          <th class="border px-4 py-2">ID</th>
+          <th class="border px-4 py-2">Name</th>
+          <th class="border px-4 py-2">Description</th>
+          <th class="border px-4 py-2">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let category of categories">
+          <td class="border px-4 py-2">{{ category.categoryId}}</td>
+          <td class="border px-4 py-2">{{ category.name }}</td>
+          <td class="border px-4 py-2">{{ category.description }}</td>
+          <td class="border px-4 py-2">
+            <button
+              (click)="setEditCategory(category)"
+              class="bg-yellow-500 text-white px-2 py-1 rounded mr-2 btn edit"
+            >
+              Edit
+            </button>
+            <button
+              (click)="deleteCategory(category.categoryId!)"
+              class="bg-red-500 text-white px-2 py-1 rounded btn"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div> --> 
+
+  <div class="max-w-6xl mx-auto mt-10">
+    <!-- Page Header -->
+    <div class="text-center mb-6">
+      <h1 class="text-3xl font-bold text-gray-700">Category Management</h1>
+      <p class="text-gray-500">Add, update, or remove categories with ease.</p>
+    </div>
+  
+    <!-- Add/Update Category Form -->
+    <div class="mb-4 flex flex-wrap gap-4">
+      <input
+        type="text"
+        [(ngModel)]="currentCategory.name"
+        placeholder="Category Name"
+        class="border p-2 rounded mr-2"
+      />
+      <input
+        type="text"
+        [(ngModel)]="currentCategory.description"
+        placeholder="Description"
+        class="border p-2 rounded mr-2"
+      />
+      <button
+        *ngIf="!editMode"
+        (click)="addCategory()"
+        class="bg-blue-500 text-white px-4 py-2 rounded"
+      >
+        Add Category
+      </button>
+      <button
+        *ngIf="editMode"
+        (click)="updateCategory()"
+        class="bg-green-500 text-white px-4 py-2 rounded"
+      >
+        Update Category
+      </button>
+      <button
+        *ngIf="editMode"
+        (click)="resetForm()"
+        class="bg-gray-500 text-white px-4 py-2 rounded ml-2"
+      >
+        Cancel
+      </button>
+    </div>
+  
+    <!-- Category List -->
+    <table class="table-auto w-full border">
+      <thead>
+        <tr>
+          <th class="border px-4 py-2">ID</th>
+          <th class="border px-4 py-2">Name</th>
+          <th class="border px-4 py-2">Description</th>
+          <th class="border px-4 py-2">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let category of categories">
+          <td class="border px-4 py-2">{{ category.categoryId}}</td>
+          <td class="border px-4 py-2">{{ category.name }}</td>
+          <td class="border px-4 py-2">{{ category.description }}</td>
+          <td class="border px-4 py-2">
+            <button
+              (click)="setEditCategory(category)"
+              class="bg-green-500 text-white px-2 py-1 rounded mr-2 btn edit"
+            >
+              Edit
+            </button>
+            <button
+              (click)="confirmDelete(category.categoryId!)"
+              class="bg-red-500 text-white px-2 py-1 rounded btn delete"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <!-- Confirmation Modals -->
+    <div *ngIf="showConfirmation" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-white rounded-lg shadow-lg p-6 w-1/3">
+        <h3 class="text-lg font-semibold text-gray-700 mb-4">
+          Are you sure you want to {{ confirmationAction }} this category?
+        </h3>
+        <div class="flex justify-end gap-4">
+          <button (click)="executeAction()" class="bg-green-500 text-white px-4 py-2 rounded-lg">
+            Confirm
+          </button>
+          <button (click)="resetConfirmation()" class="bg-gray-500 text-white px-4 py-2 rounded-lg">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

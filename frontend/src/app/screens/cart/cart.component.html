@@ -1,0 +1,51 @@
+<div class="container mx-auto px-4 min-h-[80vh]">
+  <div class="flex justify-between items-center">
+    <h1 class="text-2xl font-bold mb-6 flex items-center">
+      <i class="fa fa-shopping-cart text-gray-700 mr-2"></i> My Cart
+    </h1>
+    <button (click)="clearCart()" class=" bg-blue-600 text-white py-2 mt-6 rounded-lg hover:bg-blue-700 transition p-1"
+ >Clear Cart</button>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+    <!-- Cart Items Section -->
+    <div class="col-span-8 bg-white shadow-md rounded-lg p-4">
+      <div *ngIf="cart?.cartItems?.length; else emptyCart">
+        <app-cart-item *ngFor="let item of cart?.cartItems" [item]="item" (itemUpdated)="loadCart()"></app-cart-item>
+      </div>
+      <ng-template #emptyCart>
+        <p class="text-center text-gray-500">Your cart is empty.</p>
+      </ng-template>
+    </div>
+
+    <!-- Summary Section -->
+    <div class="col-span-4 bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-4">Order Summary</h2>
+      <div class="flex justify-between mb-3">
+        <span class="text-gray-700">Total Amount</span>
+        <span class="text-gray-700">₹{{ total }}</span>
+      </div>
+
+      <div class="flex justify-between mb-3">
+        <span class="text-gray-700">Shipping Cost</span>
+        <span class="text-gray-700">₹0.00</span>
+      </div>
+      <div class="flex justify-between mb-3">
+        <span class="text-gray-700">Discount</span>
+        <span class="text-gray-700">₹0.00</span>
+      </div>
+      <div class="flex justify-between mb-3">
+        <span class="text-gray-700">GST (18%)</span>
+        <span class="text-gray-700">₹{{ total * 0.18 | number: "1.2-2" }}</span>
+      </div>
+      <hr class="my-4" />
+      <div class="flex justify-between text-lg font-bold">
+        <span>Estimated Total</span>
+        <span>₹{{ total * 1.18 | number: "1.2-2" }}</span>
+      </div>
+      <button class="w-full bg-blue-600 text-white py-2 mt-6 rounded-lg hover:bg-blue-700 transition"
+        (click)="checkout()">
+        Checkout
+      </button>
+    </div>
+  </div>
+</div>

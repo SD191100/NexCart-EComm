@@ -1,0 +1,59 @@
+
+<div class="h-screen bg-gray-100">
+
+
+  <!-- Main Content -->
+  <div class=" p-6">
+    <!-- Welcome Banner -->
+    <div class="bg-blue-500 text-white p-6 rounded-lg shadow-lg mb-6">
+      <h1 class="text-2xl font-bold">Welcome, {{ seller.firstName }} {{ seller.lastName }}!</h1>
+      <p class="text-sm">Manage your products, orders, and performance from here.</p>
+    </div>
+
+    <!-- Seller Details -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h2 class="text-lg font-semibold text-gray-700">Name</h2>
+        <p>{{ seller.firstName }} </p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h2 class="text-lg font-semibold text-gray-700">Email</h2>
+        <p>{{ seller.email }}</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h2 class="text-lg font-semibold text-gray-700">Total Products</h2>
+        <p>{{ totalProducts }}</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h2 class="text-lg font-semibold text-gray-700">Total Orders</h2>
+        <p>{{ totalOrders }}</p>
+      </div>
+    </div>
+
+    <!-- Statistics Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+      <div class="bg-green-100 p-4 rounded-lg shadow text-green-700">
+        <h3 class="text-lg font-semibold">Total Revenue</h3>
+        <p class="text-xl font-bold">₹ {{ totalRevenue }}</p>
+      </div>
+      <div class="bg-yellow-100 p-4 rounded-lg shadow text-yellow-700">
+        <h3 class="text-lg font-semibold">Pending Orders</h3>
+        <p class="text-xl font-bold">{{ pendingOrders }}</p>
+      </div>
+      <div class="bg-blue-100 p-4 rounded-lg shadow text-blue-700">
+        <h3 class="text-lg font-semibold">Delivered Orders</h3>
+        <p class="text-xl font-bold">{{ deliveredOrders }}</p>
+      </div>
+    </div>
+
+    <!-- Recent Activities -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-xl font-bold mb-4">Recent Activities</h2>
+      <ul>
+        <li *ngFor="let activity of activities" class="border-b py-2">
+          {{ activity }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

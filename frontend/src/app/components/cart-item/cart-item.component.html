@@ -1,0 +1,52 @@
+<div class="flex items-center justify-between border-b border-gray-200 pb-4 mb-4">
+  <!-- Product Image -->
+  <img
+    [src]="productDetail?.mainImage"
+    alt="{{ item.productName }}"
+    class="w-20 h-20 object-cover rounded-lg"
+  />
+
+  <!-- Product Details -->
+  <div class="flex-1 mx-4">
+    <h3 class="font-semibold text-gray-800">{{ productDetail?.name }}</h3>
+    <span class="text-sm font-medium text-green-600">{{ productDetail?.stock }}</span>
+    <p class="text-lg font-bold text-gray-800">₹{{ productDetail?.price }}</p>
+  </div>
+
+  <!-- Quantity Controls -->
+  <div class="flex items-center">
+    <button
+      class="w-8 h-8 flex items-center justify-center bg-gray-100 text-gray-600 rounded-l-md"
+      (click)="decreaseQuantity()"
+    >
+      -
+    </button>
+    <input
+      type="number"
+      [value]="item.quantity"
+      readonly
+      class="w-12 text-center border border-gray-200"
+    />
+    <button
+      class="w-8 h-8 flex items-center justify-center bg-gray-100 text-gray-600 rounded-r-md"
+      (click)="increaseQuantity()"
+    >
+      +
+    </button>
+  </div>
+
+  <!-- Actions -->
+  <div class="flex items-center space-x-2">
+    <button
+      class="text-gray-500 hover:text-red-600 transition"
+      (click)="removeItem()"
+    >
+      <i class="fa fa-trash"></i> Remove
+    </button>
+    <!--<button-->
+    <!--  class="text-gray-500 hover:text-blue-600 transition"-->
+    <!--  (click)="saveForLater()"-->
+    <!--  <i class="fa fa-heart"></i> Save-->
+    <!--</button>-->
+  </div>
+</div>

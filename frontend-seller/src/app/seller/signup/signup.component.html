@@ -1,0 +1,88 @@
+
+<section>
+  <div class="h-[90vh] flex items-center justify-center">
+    <div class="w-[600px] mx-auto bg-white pt-7 rounded-lg shadow-md px-1">
+      <div class="mx-2">
+        <h1 class="text-center text-2xl font-mono font-semibold mb-4">Sign Up</h1>
+        <hr />
+      </div>
+      <form [formGroup]="signupForm" (ngSubmit)="register()">
+        <div class="grid grid-cols-2 gap-4 mx-3">
+          <div class="my-4 space-y-2">
+            <label class="block font-medium text-sm" for="firstName">First Name</label>
+            <input
+              class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg"
+              type="text"
+              formControlName="firstName"
+              id="firstName"
+              placeholder="John"
+            />
+          </div>
+          <div class="my-4 space-y-2">
+            <label class="block font-medium text-sm" for="lastName">Last Name</label>
+            <input
+              class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg"
+              type="text"
+              formControlName="lastName"
+              id="lastName"
+              placeholder="Doe"
+            />
+          </div>
+        </div>
+        <div class="my-4 mx-3 space-y-2">
+          <label class="block font-medium text-sm" for="email">Email</label>
+          <input
+            class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg"
+            type="email"
+            formControlName="email"
+            id="email"
+            placeholder="john.doe@example.com"
+          />
+        </div>
+        <div class="my-4 mx-3 space-y-2">
+          <label class="block font-medium text-sm" for="password">Password</label>
+          <input
+            class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg"
+            type="password"
+            formControlName="password"
+            id="password"
+            placeholder="******"
+          />
+        </div>
+        <div class="my-4 mx-3 space-y-2">
+          <label class="block font-medium text-sm" for="companyName">Company Name</label>
+          <input
+            class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg"
+            type="text"
+            formControlName="companyName"
+            id="companyName"
+            placeholder="Your Company"
+          />
+        </div>
+        <div class="my-4 mx-3 space-y-2">
+          <label class="block font-medium text-sm" for="gstNumber">GST Number</label>
+          <input
+            class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg"
+            type="text"
+            formControlName="gstNumber"
+            id="gstNumber"
+            placeholder="GST123456"
+          />
+        </div>
+        <div class="my-4 mx-3">
+          <button
+            type="submit"
+            [disabled]="!signupForm.valid"
+            class="text-white bg-blue-400 w-full flex items-center justify-center h-10 rounded-lg"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div class="my-4 mx-3 space-x-5 text-sm">
+          <span>Already have an account?</span>
+          <a class="text-gray-500" routerLink="/login">Login</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

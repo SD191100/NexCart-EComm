@@ -1,0 +1,88 @@
+<div class="container mx-auto min-h-[80vh] w-screen">
+  <!-- Breadcrumb -->
+  <div class="text-sm text-gray-500 mb-5">
+    <a href="/" class="hover:underline">Home</a>
+  </div>
+
+  <div class="grid grid-cols-2">
+    <!-- Left Section: Product Images -->
+    <div class="flex items-start w-full space-x-10">
+      <div class="flex flex-col space-y-4">
+        <img [src]="productDetail.mainImage" alt="Thmb 1"
+          class="w-16 h-16 object-cover border rounded-md cursor-pointer" (click)="setImage(productDetail.mainImage)" />
+        <img [src]="productDetail.secondImage" alt="Thmb 2"
+          class="w-16 h-16 object-cover border rounded-md cursor-pointer" (click)="setImage(productDetail.secondImage)" />
+        <img [src]="productDetail.thirdImage" alt="Thmb 3"
+          class="w-16 h-16 object-cover border rounded-md cursor-pointer" (click)="setImage(productDetail.thirdImage)" />
+      </div>
+
+      <img [src]="currentImage" alt="Product Image" class="w-full h-[40rem] object-cover mb-4 border rounded-md" />
+    </div>
+
+    <!-- Right Section: Product Information -->
+    <div class="flex-grow p-4 md:pl-8 ml-5">
+      <h1 class="text-2xl font-semibold text-gray-800">
+        {{ productDetail.name }}
+      </h1>
+      <p class="text-sm text-gray-500 mt-1">Coffee</p>
+
+      <!-- Rating and Reviews -->
+      <div class="flex items-center mt-2">
+        <span class="text-yellow-500 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.962a1 1 0 00.95.69h4.188c.969 0 1.371 1.24.588 1.81l-3.386 2.46a1 1 0 00-.364 1.118l1.287 3.962c.3.921-.755 1.688-1.538 1.118l-3.386-2.46a1 1 0 00-1.175 0l-3.386 2.46c-.783.57-1.838-.197-1.538-1.118l1.287-3.962a1 1 0 00-.364-1.118L2.464 9.39c-.783-.57-.381-1.81.588-1.81h4.188a1 1 0 00.95-.69l1.286-3.962z" />
+          </svg>
+        </span>
+        <span class="ml-2 text-gray-600 font-medium">4.5</span>
+        <span class="ml-2 text-sm text-gray-500">(163 Reviews)</span>
+      </div>
+
+      <!-- Price Section -->
+      <div class="mt-4">
+        <span class="text-xl font-semibold text-gray-800">{{
+          productDetail.price
+          }}</span>
+        <span class="text-sm text-gray-500 line-through ml-2">₹180</span>
+        <span class="text-sm text-green-600 ml-2">-3%</span>
+      </div>
+
+      <!-- Description -->
+      <p class="text-gray-700 mt-4">
+        {{ productDetail.description }} Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Laborum reprehenderit minima officia voluptate et
+        quod.
+      </p>
+
+      <!-- Add to Cart / Wishlist -->
+      <div class="flex items-center space-x-4 mt-6">
+        <button (click)="onClick()"
+          class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 focus:ring-2 focus:ring-blue-400">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- Product Details Section -->
+      <div class="mt-8">
+        <h3 class="text-lg font-medium text-gray-800">Product Details</h3>
+        <p class="mt-2 text-gray-600">
+          <span class="font-semibold">General Information:</span> Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit. Ex, officia nihil. Non
+          rem at quasi earum fuga debitis animi hic expedita porro totam quaerat
+          ut adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Animi blanditiis quasi recusandae molestias excepturi tempore minima
+          dicta eveniet hic, corrupti voluptates! Et ratione beatae placeat ab,
+          quidem quia aliquam quae sint architecto eveniet dignissimos sed totam
+          assumenda ad inventore blanditiis reprehenderit mollitia porro.
+          Molestiae soluta vero dolor veritatis nobis nemo iste maiores dolorum
+          corporis minus iure deserunt consectetur amet odio, repellat
+          voluptatum ad odit quisquam facere quis eos enim, debitis illo. Quis,
+          non iusto. Delectus, iusto vel aperiam asperiores quidem nostrum,
+          explicabo adipisci ab facere modi vero veritatis pariatur dicta
+          laudantium nulla quae a perspiciatis molestias nesciunt. Minima,
+          doloribus aliquid!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

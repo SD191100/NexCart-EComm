@@ -1,0 +1,39 @@
+<div class="container mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-6">Admin Dashboard</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Summary Cards -->
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-xl font-semibold">Total Users</h2>
+        <p class="text-3xl font-bold">{{ analytics?.totalUsers || 0 }}</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-xl font-semibold">Total Sellers</h2>
+        <p class="text-3xl font-bold">{{ analytics?.totalSellers || 0 }}</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-xl font-semibold">Total Orders</h2>
+        <p class="text-3xl font-bold">{{ analytics?.totalOrders || 0 }}</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-xl font-semibold">Total Products</h2>
+        <p class="text-3xl font-bold">{{ analytics?.totalProducts || 0 }}</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-xl font-semibold">Total Categories</h2>
+        <p class="text-3xl font-bold">{{ analytics?.totalCategories || 0 }}</p>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="mt-8 grid md:grid-cols-2 gap-6">
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-xl font-semibold mb-4">Order Trend (Last Week)</h2>
+        <canvas #orderChart></canvas>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-xl font-semibold mb-4">User Growth (Last Week)</h2>
+        <canvas #revenueChart></canvas>
+      </div>
+    </div>
+  </div>

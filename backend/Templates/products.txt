@@ -1,0 +1,103 @@
+  {
+    "name": "Elegant Party Dress",
+    "description": "Beautiful sleeveless evening gown for women. Lightweight and breathable material, perfect for parties and events.",
+    "price": 2499,
+    "stock": 10,
+    "categoryId": 3,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/71EeEhEWMXL._UL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/61Wby2Uy5mL._UL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/61NTeH3ADpL._UL1500_.jpg",
+    "details": "Designed with care to provide the perfect fit and style for evening events and casual outings."
+  }
+
+  {
+    "name": "Men's Casual Shirt",
+    "description": "Stylish men's cotton casual shirt with full sleeves. Ideal for office wear or casual outings.",
+    "price": 899,
+    "stock": 25,
+    "categoryId": 2,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/81A0pQoyB2L._UL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/71qH6BcoEIL._UL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/81JkclyQUhL._UL1500_.jpg",
+    "details": "Made from premium cotton for all-day comfort. Available in various sizes and colors."
+  }
+
+  {
+    "name": "Organic Basmati Rice",
+    "description": "High-quality, long-grain organic basmati rice. Perfect for biryanis, pulao, or everyday meals.",
+    "price": 199,
+    "stock": 50,
+    "categoryId": 4,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/71HZ1MdRqpL._SL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/81JvnSu3e8L._SL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/91jxLtbAhZL._SL1500_.jpg",
+    "details": "Certified organic basmati rice sourced from sustainable farms. Ideal for health-conscious families."
+  }
+
+  {
+    "name": "Mixed Nuts Gift Pack",
+    "description": "Premium assorted nuts including almonds, cashews, and pistachios. Perfect for gifting or snacking.",
+    "price": 499,
+    "stock": 100,
+    "categoryId": 5,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/81kUEmJZ4cL._SL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/71xXCcWaUYL._SL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/81XTGA3+MwL._SL1500_.jpg",
+    "details": "Packed in airtight containers to retain freshness. A healthy snack option for all ages."
+  }
+
+  {
+    "name": "Herbal Green Tea",
+    "description": "Pack of 100 herbal green tea bags. Infused with natural flavors to promote health and wellness.",
+    "price": 350,
+    "stock": 40,
+    "categoryId": 6,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/61ZyBhA8MYL._SL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/71kfnoyVpXL._SL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/81TiwN6yBtL._SL1500_.jpg",
+    "details": "Naturally sourced ingredients. Contains no artificial flavors or additives."
+  }
+
+  {
+    "name": "Wireless Earbuds",
+    "description": "Noise-canceling wireless earbuds with a sleek charging case. Compatible with iOS and Android devices.",
+    "price": 2999,
+    "stock": 30,
+    "categoryId": 7,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/61nFNheIhyL._SL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/71eP4yR7igL._SL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/81G3uODjqsL._SL1500_.jpg",
+    "details": "High-quality sound with active noise cancellation. Comes with customizable ear tips for added comfort."
+  }
+
+  {
+    "name": "Motorbike Helmet",
+    "description": "Full-face motorbike helmet with advanced protection and stylish design. Ideal for long rides.",
+    "price": 2599,
+    "stock": 15,
+    "categoryId": 8,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/71YqEx23HzL._SL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/81ObPppV-5L._SL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/81Ha5QKkONL._SL1500_.jpg",
+    "details": "Tested for durability and safety. Lightweight and comfortable to wear for extended periods."
+  }
+
+  {
+    "name": "Silk Saree",
+    "description": "Elegant traditional silk saree for special occasions. Soft and smooth texture with intricate designs.",
+    "price": 3499,
+    "stock": 5,
+    "categoryId": 3,
+    "sellerId": 1,
+    "mainImage": "https://m.media-amazon.com/images/I/81PbC23wWNL._SL1500_.jpg",
+    "secondImage": "https://m.media-amazon.com/images/I/91fSeVXPCEL._SL1500_.jpg",
+    "thirdImage": "https://m.media-amazon.com/images/I/91zxSaZcRFL._SL1500_.jpg",
+    "details": "A perfect blend of tradition and style. Available in multiple colors."
+  }

@@ -1,0 +1,128 @@
+<!--<div class="h-screen bg-gray-100">-->
+<!--  <div class="p-6">-->
+<!--    <div class="bg-blue-500 text-white p-6 rounded-lg shadow-lg mb-6">-->
+<!--      <h1 class="text-2xl font-bold">Manage Your Products</h1>-->
+<!--      <p class="text-sm">View, edit, and manage your products from here.</p>-->
+<!--    </div>-->
+<!---->
+<!--    <div *ngIf="products.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">-->
+<!--      <div-->
+<!--        *ngFor="let product of products"-->
+<!--        class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"-->
+<!--      >-->
+<!--        <h2 class="text-lg font-semibold text-gray-700 mb-2">{{ product.name }}</h2>-->
+<!--        <p class="text-gray-600"><strong>Price:</strong> {{ product.price | currency }}</p>-->
+<!--        <p class="text-gray-600"><strong>Stock:</strong> {{ product.stock }}</p>-->
+<!---->
+<!--        <div class="mt-4 flex justify-between items-center">-->
+<!--          <button-->
+<!--            (click)="editProduct(product.id)"-->
+<!--            class="text-blue-600 hover:text-blue-800"-->
+<!--          >-->
+<!--            Edit-->
+<!--          </button>-->
+<!--          <button-->
+<!--            (click)="deleteProduct(product.id)"-->
+<!--            class="text-red-600 hover:text-red-800"-->
+<!--          >-->
+<!--            Delete-->
+<!--          </button>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!---->
+<!--    <div *ngIf="products.length === 0" class="text-center py-4">-->
+<!--      <p>No products available. Add a new product to get started.</p>-->
+<!--    </div>-->
+<!---->
+<!--    <div class="mt-6 text-right">-->
+<!--      <button-->
+<!--        routerLink="/add-product"-->
+<!--        class="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition duration-200"-->
+<!--      >-->
+<!--        Add New Product-->
+<!--      </button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+
+<div class="h-screen bg-gray-100">
+  <div class="p-6">
+    <!-- Welcome Banner -->
+    <div class="bg-blue-500 text-white p-6 rounded-lg shadow-lg mb-6">
+      <h1 class="text-2xl font-bold">Manage Your Products</h1>
+      <p class="text-sm">View, edit, and manage your products from here.</p>
+    </div>
+
+    <!-- Product Cards -->
+    <div *ngIf="products.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div *ngFor="let product of products"
+        class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <h2 class="text-lg font-semibold text-gray-700 mb-2">{{ product.name }}</h2>
+        <p class="text-gray-600"><strong>Price:</strong> ₹{{ product.price  }}</p>
+        <p class="text-gray-600"><strong>Stock:</strong> {{ product.stock }}</p>
+
+        <div class="mt-4 flex justify-between items-center">
+          <button (click)="editProduct(product)" class="text-blue-600 hover:text-blue-800">Edit</button>
+          <button (click)="deleteProduct(product.productId)" class="text-red-600 hover:text-red-800">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- No Products Message -->
+    <div *ngIf="products.length === 0" class="text-center py-4">
+      <p>No products available. Add a new product to get started.</p>
+    </div>
+
+    <!-- Add Product Button -->
+    <div class="mt-6 text-right">
+      <button
+        routerLink="/add-product"
+        class="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition duration-200">
+        Add New Product
+      </button>
+    </div>
+  </div>
+
+  <!-- Edit Product Modal -->
+  <div *ngIf="showEditModal" class="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center">
+    <div class="bg-white rounded-lg p-6 w-96 shadow-lg">
+      <h2 class="text-xl font-bold mb-4">Edit Product</h2>
+      <form (ngSubmit)="saveChanges()">
+        <div class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" [(ngModel)]="editableProduct.name" name="name"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              required />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Price</label>
+            <input type="number" [(ngModel)]="editableProduct.price" name="price"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              required />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Stock</label>
+            <input type="number" [(ngModel)]="editableProduct.stock" name="stock"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              required />
+          </div>
+        </div>
+        <div class="mt-6 flex justify-end space-x-4">
+          <button type="button" (click)="cancelEdit()" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg">
+            Cancel
+          </button>
+          <button type="submit"
+            class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-200">
+            Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+

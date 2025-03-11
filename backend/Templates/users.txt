@@ -1,0 +1,25 @@
+
+
+//User
+{
+  "email": "useraccount1@gmail.com",
+  "password": "user@1234",
+  "role": "User",
+  "firstName": "user",
+  "lastName": "test1",
+  "contactNumber": "4477297698",
+}
+
+//Admin
+
+//seller
+{
+  "email": "sellerAccount1@gmail.com",
+  "password": "seller@1234",
+  "role": "Seller",
+  "firstName": "Seller",
+  "lastName": "Test",
+  "contactNumber": "1800-168-187",
+  "companyName": "Aggarwal Store",
+  "gstNumber": "878867545675"
+}
