@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "obLvo2zrCs4=",
+  "dgSpecHash": "lS2H6to4KA4=",
   "success": true,
-  "projectFilePath": "/home/tanjiro/code/hexaware/project/NexCartCaseStudy/NexCart.csproj",
+  "projectFilePath": "/home/tanjiro/code/hexaware/project/backend/NexCart.csproj",
   "expectedPackageFiles": [
     "/home/tanjiro/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/tanjiro/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

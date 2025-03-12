@@ -8114,11 +8114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tanjiro/code/hexaware/project/NexCartCaseStudy/NexCart.csproj",
+      "projectUniqueName": "/home/tanjiro/code/hexaware/project/backend/NexCart.csproj",
       "projectName": "NexCart",
-      "projectPath": "/home/tanjiro/code/hexaware/project/NexCartCaseStudy/NexCart.csproj",
+      "projectPath": "/home/tanjiro/code/hexaware/project/backend/NexCart.csproj",
       "packagesPath": "/home/tanjiro/.nuget/packages/",
-      "outputPath": "/home/tanjiro/code/hexaware/project/NexCartCaseStudy/obj/",
+      "outputPath": "/home/tanjiro/code/hexaware/project/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tanjiro/.nuget/NuGet/NuGet.Config"
