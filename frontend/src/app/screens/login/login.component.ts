@@ -26,7 +26,7 @@ export class LoginComponent {
   ) {
     this.loginForm = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required, Validators.minLength(4)]],
+      password: ['', [Validators.required, Validators.minLength(8)]],
     });
   }
 
@@ -39,6 +39,7 @@ export class LoginComponent {
         },
         error: () => {
           this.errorMessage = 'Invalid email or password.';
+          alert(this.errorMessage);
         },
       });
     }

@@ -1,5 +1,5 @@
 <section>
-<div class="h-[70vh] flex items-center justify-center">
+  <div class="h-[70vh] flex items-center justify-center">
     <div class="w-[450px] mx-auto bg-white pt-7 rounded-lg shadow-md px-1">
       <div class="mx-2">
         <h1 class="text-center text-2xl font-mono font-semibold mb-4">Login</h1>
@@ -7,14 +7,25 @@
       </div>
       <form action="#" [formGroup]="loginForm" (ngSubmit)="login()">
         <div class="my-4 mx-3 space-y-2">
-          <label class="block font-medium text-sm" for="">Email</label>
+          <label class="block font-medium text-sm" for="email">Email</label>
           <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="text"
             formControlName="email" id="email" placeholder="name@company.com" />
+          <div class="text-red-500 text-xs" *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
+            <span *ngIf="loginForm.get('email')?.errors?.['required']">Email is required.</span>
+            <span *ngIf="loginForm.get('email')?.errors?.['email']">Enter a valid email.</span>
+          </div>
         </div>
         <div class="my-4 mx-3 space-y-2">
           <label class="block font-medium text-sm" for="">Password</label>
           <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="password"
             formControlName="password" id="password" placeholder="******" />
+          <div class="text-red-500 text-xs"
+            *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+            <span *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</span>
+            <span *ngIf="loginForm.get('password')?.errors?.['minlength']">
+              Password must be at least 8 characters.
+            </span>
+          </div>
         </div>
         <div class="my-4 mx-3 space-x-3">
           <input type="checkbox" />
@@ -28,9 +39,9 @@
         </div>
         <div class="my-4 mx-3 space-x-5 text-sm">
           <span>Not a member?</span>
-          <a class="text-gray-500" routerLink="/register" >Register</a>
+          <a class="text-gray-500" routerLink="/register">Register</a>
         </div>
       </form>
     </div>
   </div>
-  </section>
+</section>
