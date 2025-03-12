@@ -12,22 +12,50 @@
         <div class="my-4 mx-3 space-y-2">
           <label class="block font-medium text-sm" for="">First Name</label>
           <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="text" name="email" formControlName="firstName" id="email" placeholder="John" />
+
+ <div class="text-red-500 text-xs"
+              *ngIf="signupForm.get('firstName')?.invalid && signupForm.get('firstName')?.touched">
+              <span *ngIf="signupForm.get('firstName')?.errors?.['required']">First name is required.</span>
+              <!--<span *ngIf="signupForm.get('password')?.errors?.['minlength']">-->
+                <!--Password must be at least 8 characters.-->
+              <!--</span>-->
+            </div>
         </div>
         <div class="my-4 mx-3 space-y-2">
           <label class="block font-medium text-sm" for="">Last Name</label>
           <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="text" name="email" formControlName="lastName"
             id="email" placeholder="Doe" />
+ <div class="text-red-500 text-xs"
+              *ngIf="signupForm.get('lastName')?.invalid && signupForm.get('lastName')?.touched">
+              <span *ngIf="signupForm.get('lastName')?.errors?.['required']">Last Name is required.</span>
+              <!--<span *ngIf="signupForm.get('password')?.errors?.['minlength']">-->
+                <!--Password must be at least 8 characters.-->
+              <!--</span>-->
+            </div>
         </div>
     </div>
     <div class="mb-4 mx-3 space-y-2">
       <label class="block font-medium text-sm" for="">Email</label>
       <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="text" name="email" id="email" formControlName="email"
         placeholder="name@company.com" />
+
+  <div class="text-red-500 text-xs"
+            *ngIf="signupForm.get('email')?.invalid && signupForm.get('email')?.touched">
+            <span *ngIf="signupForm.get('email')?.errors?.['required']">Email is required.</span>
+            <span *ngIf="signupForm.get('email')?.errors?.['email']">Enter a valid email.</span>
+          </div>
     </div>
     <div class="my-4 mx-3 space-y-2">
       <label class="block font-medium text-sm" for="">Password</label>
       <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="password" name="Password" formControlName="password"
         id="password" placeholder="******" />
+  <div class="text-red-500 text-xs"
+            *ngIf="signupForm.get('password')?.invalid && signupForm.get('password')?.touched">
+            <span *ngIf="signupForm.get('password')?.errors?.['required']">Password is required.</span>
+            <span *ngIf="signupForm.get('password')?.errors?.['minlength']">
+              Password must be at least 8 characters.
+            </span>
+          </div>
     </div>
     <div class="my-4 mx-3 space-x-3">
       <input type="checkbox" />
