@@ -1049,6 +1049,7 @@ F:/ShivamNextCartCode/obj/Debug/net8.0/refint/NexCart.dll
 F:/ShivamNextCartCode/obj/Debug/net8.0/NexCart.pdb
 F:/ShivamNextCartCode/obj/Debug/net8.0/NexCart.genruntimeconfig.cache
 F:/ShivamNextCartCode/obj/Debug/net8.0/ref/NexCart.dll
+/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/log4net.config
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/appsettings.Development.json
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/appsettings.json
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/NexCart
@@ -1059,9 +1060,11 @@ F:/ShivamNextCartCode/obj/Debug/net8.0/ref/NexCart.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Azure.Core.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Azure.Identity.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Castle.Core.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Humanizer.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/log4net.dll
+/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/MailKit.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
@@ -1118,6 +1121,7 @@ F:/ShivamNextCartCode/obj/Debug/net8.0/ref/NexCart.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/MimeKit.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Mono.TextTemplating.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Moq.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/Newtonsoft.Json.dll
@@ -1149,6 +1153,7 @@ F:/ShivamNextCartCode/obj/Debug/net8.0/ref/NexCart.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Memory.Data.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Reflection.MetadataLoadContext.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Runtime.Caching.dll
+/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Security.Permissions.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Text.Encodings.Web.dll
@@ -1315,6 +1320,7 @@ F:/ShivamNextCartCode/obj/Debug/net8.0/ref/NexCart.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
@@ -1340,9 +1346,3 @@ F:/ShivamNextCartCode/obj/Debug/net8.0/ref/NexCart.dll
 /home/tanjiro/code/hexaware/project/backend/obj/Debug/net8.0/NexCart.pdb
 /home/tanjiro/code/hexaware/project/backend/obj/Debug/net8.0/NexCart.genruntimeconfig.cache
 /home/tanjiro/code/hexaware/project/backend/obj/Debug/net8.0/ref/NexCart.dll
-/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
-/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/MailKit.dll
-/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/MimeKit.dll
-/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
-/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
-/home/tanjiro/code/hexaware/project/backend/bin/Debug/net8.0/log4net.config

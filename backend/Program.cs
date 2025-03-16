@@ -136,7 +136,7 @@ var app = builder.Build();
 
 
 ILog logger = LogManager.GetLogger(typeof(Program));
-logger.Info("Application started successfully.");
+logger.Info("NextCart Application started successfully.");
 
 app.UseCors("AllowLocalhost");
 
