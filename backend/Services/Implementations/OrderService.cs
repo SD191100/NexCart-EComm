@@ -12,12 +12,16 @@ namespace NexCart.Services.Implementations
         private readonly IOrderRepository _orderRepository;
         private readonly IOrderDetailRepository _orderDetailRepository;
         private readonly IProductRepository _productRepository;
+        private readonly IEmailService _emailService;
+        private readonly IUserRepository _userRepository;
 
-        public OrderService(IOrderRepository orderRepository, IOrderDetailRepository orderDetailRepository, IProductRepository productRepository)
+        public OrderService(IOrderRepository orderRepository, IOrderDetailRepository orderDetailRepository, IProductRepository productRepository, IEmailService emailService, IUserRepository userRepository)
         {
             _orderRepository = orderRepository;
             _orderDetailRepository = orderDetailRepository;
             _productRepository = productRepository;
+            _emailService = emailService;
+            _userRepository = userRepository;
         }
 
         public OrderDto GetOrderById(int orderId)
@@ -57,9 +61,16 @@ namespace NexCart.Services.Implementations
 
         public void PlaceOrder(CreateOrderDto createOrderDto)
         {
+
+            var UId = createOrderDto.UserId;
+            var user = _userRepository.GetUserById(UId);
+            if (user == null)
+                throw new InvalidOperationException("User not found");
             var order = new Order
             {
-                UserId = createOrderDto.UserId,
+                UserId = UId,
+
+
                 OrderDate = DateTime.UtcNow,
                 OrderDetails = createOrderDto.OrderDetails.Select(od => new OrderDetail
                 {
@@ -70,6 +81,19 @@ namespace NexCart.Services.Implementations
             };
 
             _orderRepository.AddOrder(order);
+
+            var subject = "Order Confirmation - NexCart";
+            var body = $@"
+                <h2>Thank you for your order, {user.FirstName}!</h2>
+                <p>Your order has been placed successfully.</p>
+                <p><strong>Order ID:</strong> {order.OrderId}</p>
+                <p><strong>Total Amount:</strong> ${order.TotalAmount}</p>
+                <p>We will notify you when your order is shipped.</p>
+                <br/>
+                <p>Best Regards,</p>
+                <p><strong>NexCart Team</strong></p>";
+
+            _emailService.SendEmail(user.Email, subject, body);
         }
 
         public async Task<List<OrderDTO>> GetUserOrderHistoryAsync(int userId)
@@ -100,12 +124,17 @@ namespace NexCart.Services.Implementations
         {
             // Simulate payment processing
             // If payment is successful:
-            
+
             return true;
         }
 
         public async Task<OrderResponseDTO> ConfirmOrderAsync(OrderConfirmationDTO confirmationRequest)
         {
+            var UId = confirmationRequest.UserId;
+            var user = _userRepository.GetUserById(UId);
+            if (user == null)
+                throw new InvalidOperationException("User not found");
+
             var order = new Order
             {
                 UserId = confirmationRequest.UserId,
@@ -125,6 +154,20 @@ namespace NexCart.Services.Implementations
             }).ToList();
 
             await _orderRepository.SaveOrderDetailsAsync(orderDetails);
+
+            var subject = "Order Confirmation - NexCart";
+            var body = $@"
+                <h2>Thank you for your order, {user.FirstName}!</h2>
+                <p>Your order has been placed successfully.</p>
+                <p><strong>Order ID:</strong> {order.OrderId}</p>
+                <p><strong>Total Amount:</strong> ${order.TotalAmount}</p>
+                <p>We will notify you when your order is shipped.</p>
+                <br/>
+                <p>Best Regards,</p>
+                <p><strong>NexCart Team</strong></p>";
+
+            _emailService.SendEmail(user.Email, subject, body);
+
 
             return new OrderResponseDTO
             {
