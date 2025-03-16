@@ -129,7 +129,7 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<NexCartDBContext>(db => db.UseSqlServer(builder.Configuration.GetConnectionString("RemoteConnection")));
+builder.Services.AddDbContext<NexCartDBContext>(db => db.UseSqlServer(builder.Configuration.GetConnectionString("AnupConnection")));
 
 
 var app = builder.Build();

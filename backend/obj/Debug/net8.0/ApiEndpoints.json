@@ -684,6 +684,38 @@
   },
   {
     "ContainingType": "SellerController",
+    "Method": "GetOrderDetailsForSeller",
+    "RelativePath": "api/Seller/seller/{sellerId}/order-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sellerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SellerController",
+    "Method": "GetProductsBySeller",
+    "RelativePath": "api/Seller/seller/{sellerId}/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sellerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SellerController",
     "Method": "GetSellerByUserId",
     "RelativePath": "api/Seller/user/{userId}",
     "HttpMethod": "GET",

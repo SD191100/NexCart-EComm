@@ -1,118 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\ShivamNextCartCode\\",
+  "WorkspaceRootPath": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\dtos\\product\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:dtos\\product\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\dtos\\category\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:dtos\\category\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\templates\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:templates\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\templates\\products.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:templates\\products.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\templates\\categories.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:templates\\categories.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\nexcart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\nexcart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:nexcart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\dtos\\product\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:dtos\\product\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\dtos\\category\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:dtos\\category\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\templates\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:templates\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\templates\\products.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:templates\\products.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\templates\\categories.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:templates\\categories.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\dtos\\sales\\analyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\dtos\\sales\\analyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:dtos\\sales\\analyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\migrations\\20241215164111_firstcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:migrations\\20241215164111_firstcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\ShivamNextCartCode\\Migrations\\20241215164111_FirstCommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|c:\\users\\anupm\\downloads\\nexcart hexaware project\\nexcart-ecomm\\backend\\nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|f:\\shivamnextcartcode\\nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{D4949813-B1C3-4C5A-93BC-4ABAA638A487}|NexCart.csproj|solutionrelative:nexcartdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,19 +121,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NexCartDB.sql ",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\NexCartDB.sql",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCartDB.sql",
               "RelativeDocumentMoniker": "NexCartDB.sql",
-              "ToolTip": "F:\\ShivamNextCartCode\\NexCartDB.sql",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCartDB.sql",
               "RelativeToolTip": "NexCartDB.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-11-27T12:31:12.512Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "log4net.config",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\log4net.config",
+              "RelativeDocumentMoniker": "log4net.config",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\log4net.config",
+              "RelativeToolTip": "log4net.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-16T11:31:41.165Z",
               "EditorCaption": ""
             },
             {
@@ -152,36 +164,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Services\\Implementations\\ProductService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\ProductService.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Services\\Implementations\\ProductService.cs",
-              "RelativeToolTip": "Services\\Implementations\\ProductService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T13:21:36.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Repositories\\Implementations\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\ProductRepository.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Repositories\\Implementations\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\ProductRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:41:12.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwDYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,24 +176,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "NexCart.csproj",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCart.csproj",
+              "RelativeDocumentMoniker": "NexCart.csproj",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCart.csproj",
+              "RelativeToolTip": "NexCart.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAApwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T16:40:08.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\ProductRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:41:12.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:21:36.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Program.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAlwIsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAlwIsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T15:41:03.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IProductService.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Services\\Interfaces\\IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IProductService.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Interfaces\\IProductService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADgvxAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -216,11 +241,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UpdateStockDTO.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\DTOs\\Product\\UpdateStockDTO.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Product\\UpdateStockDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\Product\\UpdateStockDTO.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\DTOs\\Product\\UpdateStockDTO.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Product\\UpdateStockDTO.cs",
               "RelativeToolTip": "DTOs\\Product\\UpdateStockDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,11 +254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Services\\Implementations\\CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Implementations\\CategoryService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\CategoryService.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Implementations\\CategoryService.cs",
               "RelativeToolTip": "Services\\Implementations\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,219 +267,222 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Repositories\\Interfaces\\IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:10:04.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Services\\Implementations\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Services\\Implementations\\UserService.cs",
-              "RelativeToolTip": "Services\\Implementations\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:07:44.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryResponseDTO.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\DTOs\\Category\\CategoryResponseDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Category\\CategoryResponseDTO.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\DTOs\\Category\\CategoryResponseDTO.cs",
-              "RelativeToolTip": "DTOs\\Category\\CategoryResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T11:52:04.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\DTOs\\Users\\UserDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Users\\UserDTO.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\DTOs\\Users\\UserDTO.cs",
-              "RelativeToolTip": "DTOs\\Users\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:58:06.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\UserRepository.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\UserRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAawC8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:10:57.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T16:54:00.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAvwAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:06:50.051Z"
+              "WhenOpened": "2024-12-16T07:10:04.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAoAAAAiAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:06:21.743Z"
+              "WhenOpened": "2024-12-16T07:07:44.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Category\\CategoryResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Category\\CategoryResponseDTO.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Category\\CategoryResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\Category\\CategoryResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T11:52:04.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Users\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Users\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Users\\UserDTO.cs",
+              "RelativeToolTip": "DTOs\\Users\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:58:06.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAawC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:10:57.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:54:00.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "users.txt",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Templates\\users.txt",
-              "RelativeDocumentMoniker": "Templates\\users.txt",
-              "ToolTip": "F:\\ShivamNextCartCode\\Templates\\users.txt",
-              "RelativeToolTip": "Templates\\users.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-15T16:54:54.337Z"
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:06:50.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "products.txt",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Templates\\products.txt",
-              "RelativeDocumentMoniker": "Templates\\products.txt",
-              "ToolTip": "F:\\ShivamNextCartCode\\Templates\\products.txt",
-              "RelativeToolTip": "Templates\\products.txt",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAwGcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-15T16:47:18.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "categories.txt",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Templates\\categories.txt",
-              "RelativeDocumentMoniker": "Templates\\categories.txt",
-              "ToolTip": "F:\\ShivamNextCartCode\\Templates\\categories.txt",
-              "RelativeToolTip": "Templates\\categories.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-15T16:43:45.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20241215164111_FirstCommit.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Migrations\\20241215164111_FirstCommit.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241215164111_FirstCommit.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Migrations\\20241215164111_FirstCommit.cs",
-              "RelativeToolTip": "Migrations\\20241215164111_FirstCommit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T16:41:11.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "NexCart.csproj",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\NexCart.csproj",
-              "RelativeDocumentMoniker": "NexCart.csproj",
-              "ToolTip": "F:\\ShivamNextCartCode\\NexCart.csproj",
-              "RelativeToolTip": "NexCart.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-15T16:40:08.557Z"
+              "WhenOpened": "2024-12-16T07:06:21.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Seller.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Models\\Seller.cs",
-              "RelativeDocumentMoniker": "Models\\Seller.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Models\\Seller.cs",
-              "RelativeToolTip": "Models\\Seller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:42:06.462Z"
+              "Title": "users.txt",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Templates\\users.txt",
+              "RelativeDocumentMoniker": "Templates\\users.txt",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Templates\\users.txt",
+              "RelativeToolTip": "Templates\\users.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-15T16:54:54.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "products.txt",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Templates\\products.txt",
+              "RelativeDocumentMoniker": "Templates\\products.txt",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Templates\\products.txt",
+              "RelativeToolTip": "Templates\\products.txt",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-15T16:47:18.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "F:\\ShivamNextCartCode\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-15T16:33:09.521Z"
+              "Title": "categories.txt",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Templates\\categories.txt",
+              "RelativeDocumentMoniker": "Templates\\categories.txt",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Templates\\categories.txt",
+              "RelativeToolTip": "Templates\\categories.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-15T16:43:45.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241215164111_FirstCommit.cs",
+              "DocumentMoniker": "F:\\ShivamNextCartCode\\Migrations\\20241215164111_FirstCommit.cs",
+              "ToolTip": "F:\\ShivamNextCartCode\\Migrations\\20241215164111_FirstCommit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:41:11.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\Seller.cs",
+              "RelativeDocumentMoniker": "Models\\Seller.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\Seller.cs",
+              "RelativeToolTip": "Models\\Seller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:42:06.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Review.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Models\\Review.cs",
-              "RelativeDocumentMoniker": "Models\\Review.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Models\\Review.cs",
-              "RelativeToolTip": "Models\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:44:13.654Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T16:33:09.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "AnalyticsDTO.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\DTOs\\Sales\\AnalyticsDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Sales\\AnalyticsDTO.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\DTOs\\Sales\\AnalyticsDTO.cs",
-              "RelativeToolTip": "DTOs\\Sales\\AnalyticsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:43:38.591Z"
+              "WhenOpened": "2024-11-27T15:44:13.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "AnalyticsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Sales\\AnalyticsDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Sales\\AnalyticsDTO.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\DTOs\\Sales\\AnalyticsDTO.cs",
+              "RelativeToolTip": "DTOs\\Sales\\AnalyticsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:43:38.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Order.cs",
-              "DocumentMoniker": "F:\\ShivamNextCartCode\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "F:\\ShivamNextCartCode\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:42:08.14Z"
+              "WhenOpened": "2024-11-27T15:42:08.14Z",
+              "EditorCaption": ""
             }
           ]
         }

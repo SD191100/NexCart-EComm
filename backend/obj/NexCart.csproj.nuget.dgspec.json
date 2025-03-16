@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/tanjiro/code/hexaware/project/backend/NexCart.csproj": {}
+    "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCart.csproj": {}
   },
   "projects": {
-    "/home/tanjiro/code/hexaware/project/backend/NexCart.csproj": {
+    "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tanjiro/code/hexaware/project/backend/NexCart.csproj",
+        "projectUniqueName": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCart.csproj",
         "projectName": "NexCart",
-        "projectPath": "/home/tanjiro/code/hexaware/project/backend/NexCart.csproj",
-        "packagesPath": "/home/tanjiro/.nuget/packages/",
-        "outputPath": "/home/tanjiro/code/hexaware/project/backend/obj/",
+        "projectPath": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\NexCart.csproj",
+        "packagesPath": "C:\\Users\\anupm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anupm\\Downloads\\NEXCART HEXAWARE PROJECT\\NexCart-EComm\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/tanjiro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\anupm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,7 +52,7 @@
             },
             "MailKit": {
               "target": "Package",
-              "version": "[4.11.0, )"
+              "version": "[3.9.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -113,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/tanjiro/.dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
