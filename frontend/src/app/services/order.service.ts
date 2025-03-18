@@ -7,7 +7,7 @@ import { AuthService } from './auth-service.service';
   providedIn: 'root',
 })
 export class OrderService {
-  private readonly apiUrl = 'http://localhost:5087/api/order';
+  private readonly apiUrl = 'https://localhost:7251/api/order';
 
   constructor(
     private http: HttpClient,
