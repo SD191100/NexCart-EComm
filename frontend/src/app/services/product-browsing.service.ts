@@ -6,7 +6,7 @@ import { Product } from '../models/product/product';
   providedIn: 'root',
 })
 export class ProductBrowsingService {
-  private readonly apiUrl = 'http://localhost:5087/api/Product/browse';
+  private readonly apiUrl = 'https://localhost:7251/api/Product/browse';
 
   constructor(private http: HttpClient) { }
 

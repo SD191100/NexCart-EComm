@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/NexCart.props" />
+  <Import Project="..\build\NexCart.props" />
 </Project>
