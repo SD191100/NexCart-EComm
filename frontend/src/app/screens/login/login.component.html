@@ -1,47 +1,86 @@
 <section>
-  <div class="h-[70vh] flex items-center justify-center">
-    <div class="w-[450px] mx-auto bg-white pt-7 rounded-lg shadow-md px-1">
-      <div class="mx-2">
-        <h1 class="text-center text-2xl font-mono font-semibold mb-4">Login</h1>
-        <hr />
+  <div class="login-card">
+    <div class="brand-header">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
       </div>
-      <form action="#" [formGroup]="loginForm" (ngSubmit)="login()">
-        <div class="my-4 mx-3 space-y-2">
-          <label class="block font-medium text-sm" for="email">Email</label>
-          <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="text"
-            formControlName="email" id="email" placeholder="name@company.com" />
-          <div class="text-red-500 text-xs" *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
-            <span *ngIf="loginForm.get('email')?.errors?.['required']">Email is required.</span>
-            <span *ngIf="loginForm.get('email')?.errors?.['email']">Enter a valid email.</span>
-          </div>
-        </div>
-        <div class="my-4 mx-3 space-y-2">
-          <label class="block font-medium text-sm" for="">Password</label>
-          <input class="border border-gray-300 w-full h-10 px-3 outline-none rounded-lg" type="password"
-            formControlName="password" id="password" placeholder="******" />
-          <div class="text-red-500 text-xs"
-            *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
-            <span *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</span>
-            <span *ngIf="loginForm.get('password')?.errors?.['minlength']">
-              Password must be at least 8 characters.
-            </span>
-          </div>
-        </div>
-        <div class="my-4 mx-3 space-x-3">
-          <input type="checkbox" />
-          <label class="font-medium text-sm text-gray-500" for="">Remember me</label>
-        </div>
-        <div class="my-4 mx-3">
-          <button type="submit" [disabled]="!loginForm.valid"
-            class="text-white bg-blue-400 w-full flex items-center justify-center h-10 rounded-lg">
-            Login
-          </button>
-        </div>
-        <div class="my-4 mx-3 space-x-5 text-sm">
-          <span>Not a member?</span>
-          <a class="text-gray-500" routerLink="/register">Register</a>
-        </div>
-      </form>
+      <h1>Welcome Back</h1>
+      <p>Sign in to continue to NexCart</p>
     </div>
+    
+    <form action="#" [formGroup]="loginForm" (ngSubmit)="login()">
+      <!-- Email Input -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <div class="input-container">
+          <input type="email" 
+                formControlName="email" 
+                id="email" 
+                placeholder="name@company.com">
+          <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </div>
+        <div class="error-message" 
+              *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
+          <span *ngIf="loginForm.get('email')?.errors?.['required']">
+            Email is required
+          </span>
+          <span *ngIf="loginForm.get('email')?.errors?.['email']">
+            Enter a valid email
+          </span>
+        </div>
+      </div>
+
+      <!-- Password Input -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="input-container">
+          <input type="password" 
+                formControlName="password" 
+                id="password" 
+                placeholder="••••••••">
+          <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+        </div>
+        <div class="error-message" 
+              *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+          <span *ngIf="loginForm.get('password')?.errors?.['required']">
+            Password is required
+          </span>
+          <span *ngIf="loginForm.get('password')?.errors?.['minlength']">
+            Minimum 8 characters required
+          </span>
+        </div>
+      </div>
+
+      <div class="form-footer">
+        <!-- Remember Me -->
+        <div class="remember-me">
+          <input type="checkbox" id="remember">
+          <label for="remember">Remember me</label>
+        </div>
+        
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" [disabled]="!loginForm.valid" class="sign-in-button">
+        Sign In
+      </button>
+
+      <!-- Registration Link -->
+      <div class="register-link">
+        Don't have an account? 
+        <a routerLink="/register">Create account</a>
+      </div>
+    </form>
   </div>
 </section>

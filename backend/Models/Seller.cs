@@ -20,7 +20,7 @@ namespace NexCart.Models
         // Navigation property for User
         public int UserId { get; set; }
 
-        [ForeignKey("UserId")]
+        [ForeignKey("UserId")] 
         public User User { get; set; }
 
         // Other navigation properties
